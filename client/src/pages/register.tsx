@@ -5,10 +5,12 @@ import {
 	FormLabel,
 	Input,
 	FormErrorMessage,
+	Box,
+	Button,
 } from '@chakra-ui/react';
 import { Wrapper } from '../components/Wrapper';
 import { InputField } from '../components/InputField';
-import { Box, Button } from '@chakra-ui/core';
+// import { Box, Button } from '@chakra-ui/react';
 import { useMutation } from 'urql';
 import { useRegisterMutation } from '../generated/graphql';
 
